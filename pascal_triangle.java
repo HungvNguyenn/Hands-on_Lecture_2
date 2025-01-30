@@ -25,17 +25,21 @@ public class pascal_triangle {
         return triangle;
     }
 
+    //testing cases
     public static void main(String[] args) {
+
+        //initialize scanner and prompting user for number of rows
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter number of rows: ");
         int numRows = scan.nextInt();
-
         scan.close();
+
+        //generating pascal triangle base on user input
         List<List<Integer>> pascalTriangle = generate(numRows);
 
+        //printing out each row of the triangle
         for (List<Integer> row : pascalTriangle) {
-            System.out.print(row + " ");
+            System.out.println(row + " ");
         }
-
     }
 }
