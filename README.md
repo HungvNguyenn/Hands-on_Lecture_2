@@ -13,7 +13,7 @@ for example, if the input of rows is 5; the Pascal triangle would be shown like 
                 1 4 6 4 1
                 
 The implementation uses binomial coefficient properties to compute each row number using C(i,j). The implementation uses a List<List<Integer>> to make the triangle and a List<Integer> to keep track of the 
-numbers in the rows.
+numbers in the rows. there is a test case that asks the user for how many rows and then creates the pascal triangle.
 
 
 
@@ -28,4 +28,5 @@ input: matrix = [[1,2,3]
 output: [1,2,3,6,9,8,7,4,5]
 
 The implementation uses a while loop to help traverse the matrix. inside the while loops, there are multiple for loops that help it traverse the matrix in a certain direction. It also has if statements to make sure it does not traverse
-to where it has already been.
+to where it has already been. there are multiple test cases with different matrices to test the spiral matrix function.
+
