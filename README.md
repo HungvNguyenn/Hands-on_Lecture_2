@@ -20,7 +20,9 @@ numbers in the rows. there is a test case that asks the user for how many rows a
 **Spiral_matrix.java:**
 
 This program returns a spiral order of a given 2D array. 
+
 for example:
+
 input: matrix = [[1,2,3]
                  [4,5,6]
                  [7,8,9]]
